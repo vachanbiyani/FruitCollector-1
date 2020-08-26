@@ -3,6 +3,7 @@ var back_img;
 var gameState =0;
 var playerCount = 0;
 var allPlayers;
+var score1 =0,score2 =0;
 
 var player, form,game;
 var player1,player2;
@@ -46,4 +47,7 @@ function draw() {
     
      game.end();
    }
+   textSize(30)
+   text("Player1 :"+score1,10,20);
+   text("Player2 :"+score2,10,60);
 }
